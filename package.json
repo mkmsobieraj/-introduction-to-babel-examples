@@ -1,0 +1,29 @@
+{
+  "name": "introduction-to-babel-examples",
+  "version": "0.0.1",
+  "description": "Examples for introduction-to-babel project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkmsobieraj/introduction-to-babel-examples.git"
+  },
+  "keywords": [
+    "babel",
+    "examples",
+    "typescript",
+    "react"
+  ],
+  "author": "Mateusz Sobieraj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkmsobieraj/introduction-to-babel-examples/issues"
+  },
+  "homepage": "https://github.com/mkmsobieraj/introduction-to-babel-examples#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0"
+  }
+}

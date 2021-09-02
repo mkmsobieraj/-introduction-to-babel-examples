@@ -1,2 +1,2 @@
-# -introduction-to-babel-examples
-Examples to  introduction-to-babel
+# introduction-to-babel-examples
+Examples for introduction-to-babel project
