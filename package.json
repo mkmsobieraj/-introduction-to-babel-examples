@@ -4,7 +4,11 @@
   "description": "Examples for introduction-to-babel project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "tsc --noEmit",
+    "check:watch": "npm run check -- --watch",
+    "build:tsc-types": "tsc --emitDeclarationOnly",
+    "build:babel": "babel src --out-dir dist --extensions \".ts,.tsx\" --source-maps inline",
+    "build": "npm run build:tsc-types && npm run build:babel"
   },
   "repository": {
     "type": "git",
@@ -24,6 +28,13 @@
   "homepage": "https://github.com/mkmsobieraj/introduction-to-babel-examples#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.15.0"
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/react": "^17.0.20",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.2"
   }
 }
