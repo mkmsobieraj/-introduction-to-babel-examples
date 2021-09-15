@@ -1,12 +1,10 @@
 # introduction-to-babel-examples
 Examples for introduction-to-babel project
 
-# Description
 
 ## Commands
-Execute following commands to see what output will be created by babel. Note that when we run one plugin
-only part of the syntax is converted to ES5 compatible version of javascript. To make it work you have to comment `babel.config.json`
-temporally.
+Execute the following commands to see what output will be created by babel. Note that when we run one plugin
+only part of the syntax is converted to ES5 compatible version of JavaScript. To make it work, you have to comment `babel.config.json` temporally.
 ```
 ./node_modules/.bin/babel src --out-dir dist --plugins=@babel/plugin-transform-arrow-functions
 ./node_modules/.bin/babel src --out-dir dist --plugins=@babel/plugin-transform-spread
